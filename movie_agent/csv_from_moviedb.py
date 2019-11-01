@@ -1,7 +1,7 @@
 import csv
 import requests
 
-API_KEY = "b9abb9a41b070db8a1c143a9253d1c46"
+API_KEY = #Go to https://developers.themoviedb.org/3/getting-started/introduction to sign up for an API key
 BASE_IMAGE_URL = "https://image.tmdb.org/t/p/w600_and_h900_bestv2"
 
 movies_data = open('../1_movies.csv', 'w')
