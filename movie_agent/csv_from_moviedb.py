@@ -10,7 +10,7 @@ movies_writer.writerow(["id", "name", "posterImage", "*actors*", "'-description"
 
 actors_data = open('../2_actors.csv', 'w')
 actors_writer = csv.writer(actors_data)
-actors_writer.writerow(["id", "actorName", "profileImage"])
+actors_writer.writerow(["actorId", "actorName", "profileImage"])
 
 movies_resp = requests.get('https://api.themoviedb.org/3/trending/movie/week?api_key=' + API_KEY)
 movies = movies_resp.json()["results"]
